@@ -9,6 +9,8 @@ async function bootstrap() {
 
   const app = await NestFactory.create(AppModule);
 
+  //leer
+
   app.setGlobalPrefix('api', {
     exclude: [{
       path: '',
