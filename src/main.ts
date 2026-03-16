@@ -9,7 +9,7 @@ async function bootstrap() {
 
   const app = await NestFactory.create(AppModule);
 
-  //leer
+  //leer variasbles
 
   app.setGlobalPrefix('api', {
     exclude: [{
