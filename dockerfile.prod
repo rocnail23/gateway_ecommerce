@@ -22,6 +22,7 @@ COPY --from=deps /usr/src/app/node_modules ./node_modules
 # Copiar todo el codigo fuente de la aplicación
 COPY . .
 
+
 # RUN npm run test
 RUN npm run build
 
